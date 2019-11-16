@@ -1,7 +1,7 @@
 package convert_test
 
 import (
-	"TDD/convert"
+	"convert"
 	"encoding/json"
 	"testing"
 )
