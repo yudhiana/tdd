@@ -4,7 +4,7 @@
 # coverage test
 
 set -e
-go test  -covermode=count -coverprofile=cover.out
+go test -covermode=count -coverprofile=cover.out
 go test -json > test-report.out
 go test -coverprofile=coverage.out
 go tool cover -func=cover.out
