@@ -1,8 +1,9 @@
-language: go
+language: minimal
 go:
   - 1.12
   - 1.13
   - release
   - tip
+
 script:
   - go test -v ./...
